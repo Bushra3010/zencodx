@@ -6,10 +6,13 @@ import { BrowserRouter as Router ,Routes, Route, Navigate } from 'react-router-d
 // Components
 import GlobalStyle from './globalstyles';
 import Home from './components/home';
-import ModelS from './components/Model-S';
-import Model3 from './components/Model-3';
-import ModelX from './components/Model-X';
-import ModelY from './components/Model_Y';
+import Software from './components/Software-Development';
+import Web from './components/Web-Development';
+import AppD from './components/App-Development';
+import Game from './components/Game-Development';
+import Product from "./components/Product-Photography";
+import Digital from "./components/Digital-Marketing";
+import Graphic from "./components/Graphic-Designing";
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Account from './components/Account';
@@ -48,10 +51,13 @@ function App() {
         <Routes>
           
           <Route path='/' element={<Home/>}/>
-          <Route path="/models" element={<ModelS/>} />
-          <Route path="/model3" element={<Model3/>} />
-          <Route path="/modelx" element={<ModelX/>} />
-          <Route path="/modely" element={<ModelY/>} />
+          <Route path="/software" element={<Software/>} />
+          <Route path="/web" element={<Web/>} />
+          <Route path="/app" element={<AppD/>} />
+          <Route path="/game" element={<Game/>} />
+          <Route path="/product" element={<Product/>} />
+          <Route path="/digital" element={<Digital/>} />
+          <Route path="/graphic" element={<Graphic/>} />
           <Route path="/signup" element={<Signup/>} />
           <Route 
             path="/teslaaccount" 

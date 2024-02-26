@@ -7,31 +7,31 @@ import Footer from './Footer';
 
 function Home() {
 
-    document.title = "Electric Cars, Solar & Clean Energy | Tesla";
+    document.title = "Zencodx";
     return (
         <>
         <Header/>
         <Wrapper>
             <Content>
-                <Section title="Software Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="model-3.jpg" arrow="true"/>
+                <Section title="Software Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="software.jpg" arrow="true"/>
             </Content>
             <Content>
-                <Section title="Wep Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="model-y.jpg"/>
+                <Section title="Wep Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="web.jpg"/>
             </Content>
             <Content>
-                <Section title="App Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="model-s.jpg"/>
+                <Section title="App Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="app.jpg"/>
             </Content>
             <Content>
-                <Section title="Game Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="model-x.jpg"/>
+                <Section title="Game Development" desc="Contact Now For " link="Coustmized Development" leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="game.jpg"/>
             </Content>
             <Content>
-                <Section title="Product Photography" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="solar-panel.jpg"/>
+                <Section title="Product Photography" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="product_photography.jpg"/>
             </Content>
             <Content>
-                <Section title="Digital Marketing" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="solar-roof.jpg"/>
+                <Section title="Digital Marketing" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="digital_marketing.jpg"/>
             </Content>
             <Content>
-                <Section title="Graphics Designing" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="accessories.jpg"/>
+                <Section title="Graphics Designing" desc="Elevate Your Brand" link="Aesthetics Instantly." leftbtn="CONTACT NOW" rightbtn="LIVE LINK" backgroundImg="graphic_designing.jpg"/>
                 <Footer/>
             </Content>
         </Wrapper>

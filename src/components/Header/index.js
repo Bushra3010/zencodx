@@ -1,7 +1,7 @@
 import React,{ useState } from 'react'
 import { Wrapper,Content,Content1 } from './header.style'
-import { Link } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
 import SideNav from '../SideNav'
 import CloseIcon from '@mui/icons-material/Close';
 import Logo from './bg.png';
@@ -14,17 +14,23 @@ const Header = () => {
         <>
         <Wrapper>
             <div className='logo' >
-            <Link to='/'>
+            <NavLink to='/'>
                 <img src={Logo} alt='logo'/>
-            </Link>
+            </NavLink>
             </div>
             <Content>
-                <Link to='/models'>Software Development</Link>
-                <Link to='/model3'>Web Development</Link>
-                <Link to='/modelx'>App Development</Link>
-                <Link to='/modely'>Game Development</Link>
-                <Link to='#'>Product Photography</Link>
-                <Link to='#'>Digital Marketing</Link>
+                <NavLink to='/software' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  } >Software Development</NavLink>
+                <NavLink to='/web' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  }  >Web Development</NavLink>
+                <NavLink to='/app' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  } >App Development</NavLink>
+                <NavLink to='/game' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  } >Game Development</NavLink>
+                <NavLink to='/product' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  } >Product Photography</NavLink>
+                <NavLink to='/digital' style={({ isActive }) =>  
+                isActive ? { background: '#d3d3d3', fontWeight: 'bold' } : {}  } >Digital Marketing</NavLink>
             </Content>
             <Content1>
                 <a href='#' onClick={()=> setOpen(true)} >Menu</a>

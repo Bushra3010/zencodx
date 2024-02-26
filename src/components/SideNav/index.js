@@ -14,15 +14,15 @@ function SideNav({ show }) {
                 <Link to='/modely'><li className='half'>Model Y</li></Link>
                 <li className='half'>Solar Roof</li>
                 <li className='half'>Solar Panels</li> */}
-                <li>Software Development</li>
-                <li>Web Development</li>
-                <li>App Development</li>
-                <li>Game Development</li>
-                <li>Product Photography</li>
-                <li>Digital Marketing</li>
-                <li>Graphic Designing</li>
+                <Link to='/software'><li>Software Development</li></Link>
+                <Link to='/web'><li>Web Development</li></Link>
+                <Link to='/app'><li>App Development</li></Link>
+                <Link to='/game'><li>Game Development</li></Link>
+                <Link to='/product'><li>Product Photography</li></Link>
+                <Link to='/digital'><li>Digital Marketing</li></Link>
+                <Link to='/graphic'><li>Graphic Designing</li></Link>
                 <li>Find Us</li>
-                <li>Support</li>
+                <li>Career</li>
                 <li className='half'>More</li>
             </Content>
         </Wrapper>

@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
     z-index: 1;
     .close{
         color: black;
-        padding: 5px;
+        padding: 10px;
         padding-bottom: 2px;
         border-radius: 50%;
         position: fixed;
@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
     }
     .top{
         position: fixed;
-        top: 0;
+        top: 100px;
         right: 10px;
         z-index: 10;
         height: 75px;
@@ -50,14 +50,16 @@ export const Wrapper = styled.div`
 
     .logo{
         position: absolute;
-        top: 20px;
-        left: 48px;
+        top: 5px;
+        left: 30px;
         cursor: pointer;
     }
     img{
-        height: 16px;
+        height: 50px;
         width: 120px;
     }
+
+
 
     @media screen and (max-width: 1150px){
         .logo{
